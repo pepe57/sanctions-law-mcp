@@ -16,7 +16,7 @@ Sanctions legal frameworks via the Model Context Protocol — legal-basis resear
 
 **Claude.ai / ChatGPT:** Add this MCP server URL:
 ```
-https://mcp.ansvar.eu/sanctions-law/mcp
+https://sanctions-law-mcp.vercel.app/mcp
 ```
 
 **Claude Desktop** (`claude_desktop_config.json`):
@@ -24,7 +24,7 @@ https://mcp.ansvar.eu/sanctions-law/mcp
 {
   "mcpServers": {
     "sanctions-law": {
-      "url": "https://mcp.ansvar.eu/sanctions-law/mcp"
+      "url": "https://sanctions-law-mcp.vercel.app/mcp"
     }
   }
 }
@@ -32,7 +32,7 @@ https://mcp.ansvar.eu/sanctions-law/mcp
 
 **Claude Code:**
 ```bash
-claude mcp add sanctions-law --transport http https://mcp.ansvar.eu/sanctions-law/mcp
+claude mcp add sanctions-law --transport http https://sanctions-law-mcp.vercel.app/mcp
 ```
 
 **Cursor / VS Code:**
@@ -40,7 +40,7 @@ claude mcp add sanctions-law --transport http https://mcp.ansvar.eu/sanctions-la
 {
   "mcpServers": {
     "sanctions-law": {
-      "url": "https://mcp.ansvar.eu/sanctions-law/mcp"
+      "url": "https://sanctions-law-mcp.vercel.app/mcp"
     }
   }
 }

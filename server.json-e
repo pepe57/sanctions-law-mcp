@@ -18,7 +18,7 @@
       "args": ["@ansvar/sanctions-law-mcp"]
     },
     "http": {
-      "url": "https://mcp.ansvar.eu/sanctions-law/mcp"
+      "url": "https://sanctions-law-mcp.vercel.app/mcp"
     }
   },
   "tools": 11,
